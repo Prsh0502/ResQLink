@@ -38,7 +38,7 @@ The terminal will show a local URL (typically http://localhost:5173). Open it in
 
 ## Customization
 - Update colors or spacing in `src/App.css`.
-- Swap the CSS heatmap for a real map provider by replacing the `heatmapPoints` layer with map markers.
+- Swap the CSS heatmap for a real map provider by replacing the `heatmapPoints` layer with map markers in the respective section.
 - Replace sample data in `src/App.jsx` with API calls or state management of your choice.
 
 ## License
