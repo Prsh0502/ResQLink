@@ -4,7 +4,7 @@ A single-page React dashboard that recreates the ResQ-Link Command Center experi
 
 ## Tech Stack
 - React 19 + Vite
-- CSS (no UI libraries)
+- CSS 
 
 ## Getting Started
 1) Install dependencies
