@@ -1,45 +1,69 @@
-# ResQ-Link Command Center UI
+# ResQLink – Disaster & Crisis Awareness Platform
 
-A single-page React dashboard that recreates the ResQ-Link Command Center experience shown in the provided reference screens. It includes four primary tabs—Overview, Incidents, Volunteers, and Analytics—with matching cards, controls, and a stylized city heatmap.
+ResQLink is a disaster and crisis awareness web platform designed to help citizens stay informed, report emergencies, and access safety-related information during critical situations.
 
-## Tech Stack
-- React 19 + Vite
-- CSS 
+The project focuses on improving community preparedness and quick response during disasters such as floods, fires, earthquakes, accidents, and other emergency situations.
 
-## Getting Started
-1) Install dependencies
+
+
+## 🚨 Problem Statement
+
+During disasters and crisis situations, people often face delays in receiving accurate information, emergency alerts, and response support. Lack of proper communication can increase panic, confusion, and damage.
+
+ResQLink aims to bridge this gap by providing a centralized platform for disaster awareness, reporting, and response coordination.
+
+
+## 🎯 Objectives
+
+- Provide disaster and emergency awareness information
+- Enable users to report incidents quickly
+- Display important safety guidelines
+- Improve communication between citizens and response teams
+- Support faster decision-making during emergencies
+
+
+## ✨ Key Features
+
+- Emergency incident reporting
+- Disaster awareness information
+- Safety tips and guidelines
+- User-friendly dashboard
+- Crisis category-based information
+- Responsive web design
+- Simple and clean UI for quick access
+
+
+## 🛠️ Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Flask API 
+- GitHub for version control
+
+
+## 📌 Use Cases
+
+- Citizens can report disaster incidents
+- Users can view safety instructions
+- Authorities can monitor submitted reports
+- Volunteers can understand emergency needs
+- Communities can stay updated during crises
+
+
+## 📂 Project Structure
+
 ```bash
-npm install
-```
-2) Run the dev server
-```bash
-npm run dev
-```
-3) Open the app
-The terminal will show a local URL (typically http://localhost:5173). Open it in your browser to view the dashboard.
-
-## Available Scripts
-- `npm run dev` — start Vite with HMR
-- `npm run build` — production build
-- `npm run preview` — preview the production build
-- `npm run lint` — run ESLint
-
-## Project Structure
-- `src/App.jsx` — UI layout, tab logic, sample data, heatmap, charts
-- `src/App.css` — component-level styling and layout system
-- `src/index.css` — global styles and font imports
-- `public/` — static assets served by Vite
-
-## Notes on the Implementation
-- Tabs and sub-tabs mirror the reference screens: Overview (map + comms), Incidents (filters, alerts), Volunteers (roster cards), Analytics (trends, donut, bar chart).
-- The heatmap layer is CSS-based: radial gradients over a stylized grid background; pins indicate critical/pending/available spots.
-- Charts are lightweight, built with SVG (trends) and CSS (donut/bar), keeping dependencies minimal.
-- Sample data is hard-coded for quick visualization; replace with live data sources as needed.
-
-## Customization
-- Update colors or spacing in `src/App.css`.
-- Swap the CSS heatmap for a real map provider by replacing the `heatmapPoints` layer with map markers in the respective section.
-- Replace sample data in `src/App.jsx` with API calls or state management of your choice.
-
-## License
-MIT
+ResQLink/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── App.js
+│
+├── package.json
+├── README.md
+└── .gitignore
